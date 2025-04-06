@@ -81,7 +81,33 @@ Here you can see the robot in the 3D printing design software. This part will on
 
 # The Coding
 
---to be continued
+#define PWM_PIN 9  // Connects to PWM on MD10C
+#define DIR_PIN 8  // Connects to DIR on MD10C
+
+void setup() {
+  pinMode(PWM_PIN, OUTPUT);
+  pinMode(DIR_PIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(DIR_PIN, HIGH); // Set direction
+  analogWrite(PWM_PIN, 200);   // Adjust speed (0-255)
+  delay(2000);
+
+  digitalWrite(DIR_PIN, LOW);  // Reverse direction
+  analogWrite(PWM_PIN, 200);
+  delay(2000);
+}
+// Motor dreht in eine Richtung (vorwärts)
+  digitalWrite(DIR_PIN, HIGH);  // Setze die Richtung auf HIGH
+  analogWrite(PWM_PIN, 200);    // Setze die Geschwindigkeit auf 200 (0-255)
+  delay(2000);                  // Warte 2 Sekunden
+
+  // Motor dreht in die entgegengesetzte Richtung (rückwärts)
+  digitalWrite(DIR_PIN, LOW);   // Setze die Richtung auf LOW
+  analogWrite(PWM_PIN, 200);    // Setze die Geschwindigkeit auf 200
+  delay(2000);                  // Warte 2 Sekunden
+}
 
 # Explanation
 
