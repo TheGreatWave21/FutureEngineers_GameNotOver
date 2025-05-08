@@ -21,7 +21,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
     * [**The 3D-printed Parts**](#3D-printed-parts)
 * [**Documentation**](#documentation)
 * [**Photos and Videos**](#p--v)
-* [**The software**](#software)
     * [**Programming language**](#programming)
     * [**The Coding**](#code)
     * [**Explanation**](#explanation)
@@ -72,13 +71,9 @@ You can see the unfinished base without the "sticks", which are going to give st
 
 Here you can see the robot in the 3D printing design software. This part will only be used for the base.
 
-# Software
-
---to be continued
-
 # Programming language
 
-In the end, we decided to use Python as our main programming language on an Arduino Mega
+In the end, we decided to use Python as our main programming language on an Arduino Mega. The code is explained under the explanation part of this repo. 
 
 # The Coding
 
