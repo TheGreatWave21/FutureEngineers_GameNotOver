@@ -37,21 +37,22 @@ Our robot consists of two main parts. The electronics and the chassis. The elect
 ## Components
 
 This list contains all the materials that were used to build our Robot. This includes everything (except 3D-printed parts, which are not included here. More about them later):
-1. Arduino Potenta H7
-2. Gens ace Modellbau-Akkupack (LiPo) 11.1 V 1200 mAh Zellen-Zahl: 3 25 C Block
-3. Motraxx SR540SH-6230S-67 Universal Brushed Elektromotor
-4. Cytron MD10C
-5. Arducam 5MP Plus OV 5642 Mini Cam
+1. Computer: Arduino Mega
+2. Batterie: Gens ace Modellbau-Akkupack (LiPo) 11.1 V 1200 mAh Zellen-Zahl: 3 25 C Block
+3. Motor: Motraxx SR540SH-6230S-67 Universal Brushed Elektromotor
+4. Motortreiber: Cytron MD10C
+5. Mini Cam: Arducam 5MP Plus OV 5642 Mini Cam
+6. Ultraschallsensor: HC-OSR4
+7. Farbsensor: APDS-9960 
 
---to be continued
 
-## The 3D-printed parts
+## The 3D-printed parts 
 
---to be continued
+We 3D-printed the chassis of the car to be able to contain the color sensor, the Arduino Mega, the motor drive and the distance sensors. They have been accomodated accordingly on the chassis. This can be seen on the following pictures:
 
 # Documentation
 
-As a team, we first thought of how to structure the car in a way, that is easy to then drive with. The length x width x height of the car couldn´t exceed more than 
+As a team, we first thought of how to structure the car in a way, that is easy to then drive with. The length x width x height of the car couldn´t exceed more than 30 x 20 x 30 cm, so we had to get creative. In the end, we decided to go for a square design, since this was the most efficient easy to store every component. 3D printing almost every structural part, was a important idea, since the car should not exceed a maximum of 1,5 kg in weight. The car also should not drive on less than 4 normal wheels, which means for us that our initial design is not adequate anymore. We started to print but soon noticed that the design of the car was not fitting at first, so we changed to the design that we know would work. 
 
 # Photos and Videos
 
@@ -77,7 +78,7 @@ Here you can see the robot in the 3D printing design software. This part will on
 
 # Programming language
 
---to be continued
+In the end, we decided to use Python as our main programming language on an Arduino Mega
 
 # The Coding
 
